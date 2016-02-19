@@ -28,8 +28,16 @@ import spinner from './src/components/*'
 
 #### circleLine | Windows8 加载动画样式
 
-| Parameter | Required |   Type  |   Description   |
-|:---------:| -------- | ------- | --------------- |
-| `loading` |   false  | Boolean |       show      |
-|  `color`  |   false  | String  | spinner's color |
+| Parameter | Required |   Type  |   Description   |  Example  |
+|:---------:| -------- | ------- | --------------- |:---------:|
+| `loading` | false    | Boolean | show            | true      |
+| `color`   | false    | String  | spinner's color | #F45757   |
+
+#### dot | Google 四色小点
+
+| Parameter | Required |   Type  |   Description   |  Example  |
+|:---------:| -------- | ------- | --------------- |:---------:|
+| `loading` | false    | Boolean | show            | true      |
+| `size`    | false    | Number  | spinner's size  | 10        |
+| `color`   | false    | Array   | dot's color     | ['#4285F4', '#DB4437', '#F4B400', '#0F9D58'] |
 
