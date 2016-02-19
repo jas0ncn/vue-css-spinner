@@ -2,6 +2,8 @@
 
 > VueJS CSS Loader
 
+## [Live demo]('http://jas0ncn.github.io/vue-css-spinner/')
+
 ## How to use
 
 Copy one of spinners from `src/components/*.vue` into your project `src/components`
