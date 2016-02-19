@@ -1,8 +1,8 @@
 {
-  "name": "dev",
-  "description": "A Vue.js project",
+  "name": "vue-css-spinner",
+  "description": "VueJS CSS 加载动画组件",
   "author": "Jas0ncn <ceocjy@vip.qq.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --progress --hide-modules --config build/webpack.prod.conf.js",

@@ -1,6 +1,6 @@
-# dev
+# vue-css-spinner
 
-> A Vue.js project
+> VueJS CSS 加载动画组件
 
 ## Build Setup
 
