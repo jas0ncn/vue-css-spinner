@@ -1,22 +1,19 @@
 <template>
-  <div id="app">
-    <img class="logo" src="./assets/logo.png">
-    <hello></hello>
-  </div>
+    <circleline></circleline>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import circleline from './components/circleLine'
 
 export default {
-  components: {
-    Hello
-  }
+    components: {
+        circleline
+    }
 }
 </script>
 
 <style>
 body {
-  font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 </style>
