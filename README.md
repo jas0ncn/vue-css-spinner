@@ -2,20 +2,22 @@
 
 > VueJS CSS 加载动画组件
 
-## Build Setup
+## Use
 
-``` bash
-# install dependencies
-npm install
+拷贝 `src/components/*.vue` 至你项目的 `src/components` 内
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# run unit tests
-npm test
+``` html
+<spinner></spinner>
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+``` js
+#import components
+import spinner from './src/components/*'
+
+#use components
+...
+	components: {
+		spinner
+	}
+...
+```
