@@ -2,7 +2,7 @@
 
 > VueJS CSS Loader
 
-## [Live demo]('http://jas0ncn.github.io/vue-css-spinner/')
+## [Live demo](http://jas0ncn.github.io/vue-css-spinner/)
 
 ## How to use
 
