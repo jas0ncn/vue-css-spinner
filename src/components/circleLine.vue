@@ -1,22 +1,22 @@
 <template>
-    <div class="vue-css-spinner">
+    <div class="vue-css-spinner" v-show="loading">
         <div class="circleOneContainer">
-            <div class="circle"></div>
+            <div class="circle" :style="css"></div>
         </div>
         <div class="circleTwoContainer">
-            <div class="circle"></div>
+            <div class="circle" :style="css"></div>
         </div>
         <div class="circleThreeContainer">
-            <div class="circle"></div>
+            <div class="circle" :style="css"></div>
         </div>
         <div class="circleFourContainer">
-            <div class="circle"></div>
+            <div class="circle" :style="css"></div>
         </div>
         <div class="circleFiveContainer">
-            <div class="circle"></div>
+            <div class="circle" :style="css"></div>
         </div>
         <div class="circleSixContainer">
-            <div class="circle"></div>
+            <div class="circle" :style="css"></div>
         </div>
     </div>
 </template>
@@ -36,7 +36,9 @@ export default {
     },
     data () {
         return {
-            msg: 'Hello World!'
+            css: {
+                background: this.color
+            }
         }
     }
 }
@@ -66,7 +68,6 @@ export default {
     height: 6px;
     margin-left: -3px;
     border-radius: 50%;
-    background: #408ec0;
 }
 .circleTwoContainer {
     animation-delay: 150ms;
