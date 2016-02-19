@@ -1,16 +1,16 @@
-# vue-css-spinner
+# Vue CSS Spinner
 
-> VueJS CSS 加载动画组件
+> VueJS CSS Loader
 
-## Use
+## How to use
 
-拷贝 `src/components/*.vue` 至你项目的 `src/components` 内
+copy one of spinners from `src/components/*.vue` into your project `src/components`
 
-HTML部分
+Insert HTML like this
 ``` html
 <spinner></spinner>
 ```
-JS部分
+Import components and add component to `components`
 ``` js
 //import components
 import spinner from './src/components/*'
@@ -22,9 +22,9 @@ import spinner from './src/components/*'
 	}
 ...
 ```
-另外，你可以用css自定义组件的位置
+Besides,you can add the component's location by CSS
 
-## 参数表
+## Parameter list
 
 #### circleLine | Windows8 加载动画样式
 
