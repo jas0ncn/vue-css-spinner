@@ -4,7 +4,7 @@
 
 ## How to use
 
-copy one of spinners from `src/components/*.vue` into your project `src/components`
+Copy one of spinners from `src/components/*.vue` into your project `src/components`
 
 Insert HTML like this
 ``` html
@@ -26,14 +26,14 @@ Besides,you can add the component's location by CSS
 
 ## Parameter list
 
-#### circleLine | Windows8 加载动画样式
+#### circleLine | Windows8 style
 
 | Parameter | Required |   Type  |   Description   |  Example  |
 |:---------:| -------- | ------- | --------------- |:---------:|
 | `loading` | false    | Boolean | show            | true      |
 | `color`   | false    | String  | spinner's color | #F45757   |
 
-#### dot | Google 四色小点
+#### dot | Google dots style
 
 | Parameter | Required |   Type  |   Description   |  Example  |
 |:---------:| -------- | ------- | --------------- |:---------:|
